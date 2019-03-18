@@ -17,7 +17,7 @@ Welcome to the HTML Basic Course :)
 
 This repository is dedicated for helping friend to learn the basic of HTML that we need to know for newly creating a simple site.
 
-Today, we are going to go thru 5 basic tags we mostly use on HTML those are listed in the table of content!
+Today, we will go thru 6 basic tags we mostly use on HTML those are listed in the table of content!
 
 
 # Anatomy of HTML Tags
@@ -35,14 +35,15 @@ like other programming language, HTML also has its own syntax and web browser wi
 
 Before going deep into HTML code, we have to understand the anatomy of HTML first!
 
-HTML are basically compose of 2 things: element name and attribute(s)
+HTML are basically compose of 3 things: element name, attribute(s), and content
 
 ```
-<element-name attribute="value"></element-name>
+<element-name attribute="value">content</element-name>
 ```
 
 * __element-name__: name of HTML component, ex. `div`, `a`, `button` and so on
 * __attribute__: most of attributes for HTML are optional but basically if we want to have fancy options for our html then we need to specify the attribute with value.
+* __content__ is what's inside that particular HTML code scoped
 
 for example
 
