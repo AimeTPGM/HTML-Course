@@ -70,7 +70,7 @@ for example, `<input />` << this is a Self-Closing tag because it does not requi
 
 and there are some tags those can be isolated on itself and no need `/` to close the tag
 
-for example, <br> and <hr>
+for example, `<br>` and `<hr>`
 
 
 ## Before you move on
