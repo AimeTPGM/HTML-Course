@@ -1,13 +1,13 @@
 # Table of Content
 
-- Anatomy of HTML Tags
-- `<div></div>` Division
-- `<a></a>` Anchor (Link)
-- `<p></p>` Paragraph
-- `<h1></h1>` Heading
-- `<br>` Line Break
-- `<hr>` Horizontal Line
-- Summary Sheet
+- [Anatomy of HTML Tags](#anatomy-of-html-tags)
+- [`<div></div>` Division](#division)
+- [`<a></a>` Anchor (Link)](#link)
+- [`<p></p>` Paragraph](#paragraph)
+- [`<br>` Line Break](#line-break)
+- [`<h1></h1>` Heading](#heading)
+- [`<hr>` Horizontal Line](#horizontal-line)
+- [Summary Sheet](#summary-sheet)
 
 # Welcome
 
@@ -145,7 +145,148 @@ because when `href` value is using `#`, it means "please jump to the element tha
 `#` is the represent of id. If that id is not present anywhere in the HTML code, it _also_ won't jump to anywhere.
 
 
+# Paragraph
+
+for looooong text which normally contains sentence(s), we usually put it in proper `<p></p>`
+
+go to some page that has long content and put it in `<p></p>` that's it...
+
+Tips: for mocking a long paragraph, we usually use __Lorem Ipsum__ text. Go to [Google](www.google.com) and seach for "Lorem Ipsum Generator"
+
+## Styling the text
+
+I wish I could add more content about this section so please let me introduce you too __Styling__
+
+you see it thru this material, it's the attribute called `style`
+
+try this on your text editor
+
+```
+<p style="color: #00FF00;">
+    this is long paragraph
+</p>
+```
+
+save and open it, you will see the text is changed to be green.
+
+so let's try more
+
+```
+<p style="color: #00FF00; text-align: center;">
+    this is long paragraph
+</p>
+```
+
+save and open, now the green text are aligning centered! 
+
+you can try more on your own for styling the text inside `p` tag. 
+
+I give you some keywords then you can go to google more about what we can style the text
+
+`text-decoration`
+
+`text-indent`
+
+`text-transform`
+
+`font-size`
+
+`font-weight`
+
+Go google!
+
+# Link Break
+
+In long paragraph, you may need to break in into new line, simply apply `<br>` into your paragraph
+
+example,
+
+```
+<p>This is a long parangraph<br>and this is a new line</p>
+```
+
+# Heading
+
+Heading in HTML has level from 1 to 6 - see the HTML code below
+
+```
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+```
+
+the actual different is the default size of text. Level 1 is the biggest and level 6 is the smallest.
+
+you can also apply the [__Styling__](#styling-the-text) in previous section with this tag to! 
+
+if you are a UI designer, the header will be useful for specified the hierarchy of paragraph heading :) 
+
+make it fancy!
+
+# Horizontal Line
+
+`<hr>` will be a standalone tag that create a long line from end to end of the page's width.
+
+try this on your text editor
+
+```
+<div>
+    this is first
+    <hr>
+    this is second
+</div>
+<hr>
+<div>
+    this is third
+</div>
+```
+
+save and open, you will see 2 lines on the page.
+
+`hr` can be styling in many way, you can try
+
+```
+<hr style="height: 10px; background: pink;">
+```
+
+your line will be bigger and has pink color
+
+if you dont like an ugly weird black border, try `border: 0;`
+
+or if you'd like to change border color, try `border-color: green;`
+
+there are more many way to style `<hr>` like making the dotted line, dashed line or else
+
+Google with this words: hr style 
 
 
 
+Example,
 
+```
+<hr style="border-top: 1px dotted red;">
+```
+
+create a read dotted line
+
+# Summary Sheet
+
+| Tags | what's for |
+| ----- | ----------- |
+| `<div></div>` | create a block of elements |
+| `<a></a>` | make a link |
+| `<h1></h1>` | biggest header (has level 1 to level 6) |
+| `<p></p>` | make a paragraph |
+| `<br>` | break into new line |
+| `<hr>` | long line from end to end width of page |
+
+# First Homework
+
+create a new page that has your name on the top and your information
+
+you may have some link to your own social network and introduce yourself a bit in short sentences (or Lorem ipsum is fine)
+
+then try to styling it as you would like to, makes it fancy and most beautiful as much as possible
