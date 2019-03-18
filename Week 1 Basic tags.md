@@ -3,9 +3,9 @@
 - [Anatomy of HTML Tags](#anatomy-of-html-tags)
 - [`<div></div>` Division](#division)
 - [`<a></a>` Anchor (Link)](#link)
+- [`<h1></h1>` Heading](#heading)
 - [`<p></p>` Paragraph](#paragraph)
 - [`<br>` Line Break](#line-break)
-- [`<h1></h1>` Heading](#heading)
 - [`<hr>` Horizontal Line](#horizontal-line)
 - [Summary Sheet](#summary-sheet)
 
@@ -145,6 +145,28 @@ because when `href` value is using `#`, it means "please jump to the element tha
 `#` is the represent of id. If that id is not present anywhere in the HTML code, it _also_ won't jump to anywhere.
 
 
+# Heading
+
+Heading in HTML has level from 1 to 6 - see the HTML code below
+
+```
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+```
+
+the actual different is the default size of text. Level 1 is the biggest and level 6 is the smallest.
+
+you can also apply the [__Styling__](#styling-the-text) in previous section with this tag to! 
+
+if you are a UI designer, the header will be useful for specified the hierarchy of paragraph heading :) 
+
+make it fancy!
+
+
 # Paragraph
 
 for looooong text which normally contains sentence(s), we usually put it in proper `<p></p>`
@@ -204,27 +226,6 @@ example,
 ```
 <p>This is a long parangraph<br>and this is a new line</p>
 ```
-
-# Heading
-
-Heading in HTML has level from 1 to 6 - see the HTML code below
-
-```
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-```
-
-the actual different is the default size of text. Level 1 is the biggest and level 6 is the smallest.
-
-you can also apply the [__Styling__](#styling-the-text) in previous section with this tag to! 
-
-if you are a UI designer, the header will be useful for specified the hierarchy of paragraph heading :) 
-
-make it fancy!
 
 # Horizontal Line
 
